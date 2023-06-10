@@ -66,7 +66,7 @@ export class Component {
 
 export class Stylesheet {
   #sheets: Map<string, string>;
-  #iterableStyles: Map<string, IterableStyleTag>;
+  #iterableStyles: Map<string, IterableStyleTag[]>;
 
   constructor() {
     this.#sheets = new Map();
@@ -80,24 +80,30 @@ export class Stylesheet {
   }
 
   addIterableStyles(name: string, styles: IterableStyleTag) {
-    if (!this.#iterableStyles.has(name)) {
-      this.#iterableStyles.set(name, styles);
-    }
+    const iterableStyles = this.#iterableStyles.get(name);
+    iterableStyles?.push(styles);
+    this.#iterableStyles.set(name, iterableStyles || [styles]);
   }
 
-  generateIterableStyles(name: string, data: Record<string, unknown>[]) {
+  generateIterableStyles(name: string, collection: string, data: Record<string, unknown>[]) {
     const staticStyles = this.#sheets.get(name) || '';
-    const styles = this.#iterableStyles.get(name) || ({} as IterableStyleTag);
+    const iterableStyles = this.#iterableStyles
+      .get(name)
+      .filter((style) => style.collection === collection);
 
-    const style = data.map((item) => {
-      let s = styles.template || '';
+    const style = iterableStyles.map((iterable) => {
+      return data
+        .map((item) => {
+          let s = iterable.template || '';
 
-      for (const [key, value] of Object.entries(item)) {
-        const regex = new RegExp(`{{ .${key} }}`, 'g');
-        s = s.replace(regex, value as string);
-      }
+          for (const [key, value] of Object.entries(item)) {
+            const regex = new RegExp(`{{ .${key} }}`, 'g');
+            s = s.replace(regex, value as string);
+          }
 
-      return s;
+          return s;
+        })
+        .join('\n');
     });
 
     const sheet = `${staticStyles}\n${style.join('\n')}`;

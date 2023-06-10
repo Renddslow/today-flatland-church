@@ -19,7 +19,7 @@ class Card extends Component {
     super(stylesheet);
     this.loadTemplate('Card');
     this.loadCategories();
-    this.stylesheet.generateIterableStyles('Card', this.#categories);
+    this.stylesheet.generateIterableStyles('Card', 'categories', this.#categories);
 
     console.log(this.stylesheet.getStylesForComponent('Card'));
   }
