@@ -10,5 +10,58 @@
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <script>
+      CMS.registerPreviewStyle('/admin/preview.css');
+      const CardPreview = createClass({
+        render: function () {
+          const entry = this.props.entry;
+          const image = entry.getIn(['data', 'image']);
+          const bg = this.props.getAsset(image);
+          return h(
+            'a',
+            { className: 'card' },
+            h(
+              'div',
+              { className: 'content' },
+              h('h2', {}, entry.getIn(['data', 'title'])),
+              h('div', { className: 'text' }, this.props.widgetFor('body')),
+            ),
+            h('img', { src: bg.toString() }),
+          );
+        },
+      });
+
+      const CategoryPreview = createClass({
+        render: function () {
+          const entry = this.props.entry;
+          const color = entry.getIn(['data', 'color']);
+
+          return h(
+            'div',
+            { className: 'category-preview' },
+            h(
+              'div',
+              { className: 'card', style: { '--bg': color } },
+              h(
+                'div',
+                { className: 'content' },
+                h('h2', {}, entry.getIn(['data', 'title']) + ' Event'),
+                h(
+                  'div',
+                  { className: 'text' },
+                  'This is a preview of a categorized card with about this much text',
+                ),
+              ),
+              h('img', {
+                src: 'https://images.unsplash.com/photo-1579634136617-371ae14f7fee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2F0aGVkcmFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
+              }),
+            ),
+          );
+        },
+      });
+
+      CMS.registerPreviewTemplate('card', CardPreview);
+      CMS.registerPreviewTemplate('category', CategoryPreview);
+    </script>
   </body>
 </html>
