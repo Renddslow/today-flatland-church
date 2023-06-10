@@ -2,6 +2,7 @@ import { Stylesheet, Component } from '../component';
 import fs from 'fs';
 import path from 'path';
 import YAML from 'yaml';
+import templite from 'templite';
 
 type Category = {
   slug: string;
@@ -9,19 +10,24 @@ type Category = {
   color: string;
 };
 
+type Data = {
+  title: string;
+  body: string;
+  category: Category;
+  image: string;
+  link: string;
+};
+
 class Card extends Component {
-  #styles: string;
-  #iterableStyleTemplates: string[];
-
   #categories: Category[];
+  #data: Data;
 
-  constructor(stylesheet: Stylesheet) {
+  constructor(stylesheet: Stylesheet, data: Data) {
     super(stylesheet);
+    this.#data = data;
     this.loadTemplate('Card');
     this.loadCategories();
     this.stylesheet.generateIterableStyles('Card', 'categories', this.#categories);
-
-    console.log(this.stylesheet.getStylesForComponent('Card'));
   }
 
   loadCategories() {
@@ -33,6 +39,10 @@ class Card extends Component {
         ...YAML.parse(f),
       };
     });
+  }
+
+  render() {
+    return templite(this.template.html, this.#data);
   }
 }
 

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import * as path from 'path';
 import { load } from 'cheerio';
+import CleanCSS from 'clean-css';
 
 type IterableStyleTag = {
   collection: string;
@@ -71,6 +72,8 @@ export class Stylesheet {
   constructor() {
     this.#sheets = new Map();
     this.#iterableStyles = new Map();
+    this.getStyles.bind(this);
+    this.getStylesForComponent.bind(this);
   }
 
   addStaticStyles(name: string, styles: string) {
@@ -80,9 +83,15 @@ export class Stylesheet {
   }
 
   addIterableStyles(name: string, styles: IterableStyleTag) {
-    const iterableStyles = this.#iterableStyles.get(name);
-    iterableStyles?.push(styles);
-    this.#iterableStyles.set(name, iterableStyles || [styles]);
+    const iterableStyles = this.#iterableStyles.get(name) || [];
+    if (
+      !iterableStyles
+        .filter((style) => style.collection !== styles.collection)
+        .some((style) => style.template === styles.template)
+    ) {
+      iterableStyles.push(styles);
+      this.#iterableStyles.set(name, iterableStyles);
+    }
   }
 
   generateIterableStyles(name: string, collection: string, data: Record<string, unknown>[]) {
@@ -108,10 +117,18 @@ export class Stylesheet {
 
     const sheet = `${staticStyles}\n${style.join('\n')}`;
     this.#sheets.set(name, sheet);
-    this.#iterableStyles.delete(name);
+    this.#iterableStyles.set(
+      name,
+      this.#iterableStyles.get(name).filter((style) => style.collection !== collection),
+    );
   }
 
   getStylesForComponent(name: string) {
-    return this.#sheets.get(name) || '';
+    const css = new CleanCSS({ level: 2 });
+    return css.minify(this.#sheets.get(name) || '').styles;
+  }
+
+  getStyles() {
+    return Array.from(this.#sheets.keys()).map((name) => this.getStylesForComponent(name));
   }
 }

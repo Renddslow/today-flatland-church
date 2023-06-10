@@ -11,5 +11,5 @@ await build({
   format: 'esm',
   platform: 'node',
   outfile: 'dist/main.js',
-  minify: true,
+  // minify: true,
 });

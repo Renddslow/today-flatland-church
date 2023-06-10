@@ -14,11 +14,15 @@
     "globby": "^13.1.4",
     "netlify-cli": "^15.4.1",
     "prettier": "^2.8.8",
+    "templite": "^1.2.0",
     "yaml": "^2.3.1"
   },
   "scripts": {
     "build": "node build.js && node scripts/glob-copy.js dist && node dist/main.js",
     "start": "netlify dev"
   },
-  "prettier": "@dmsi/prettier-config"
+  "prettier": "@dmsi/prettier-config",
+  "dependencies": {
+    "clean-css": "^5.3.2"
+  }
 }
