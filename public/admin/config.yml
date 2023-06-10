@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: Renddslow/today-flatland-church
+  branch: main
+publish_mode: editorial_workflow
+media_folder: public/img
+public_folder: /img
+collections:
+  - name: "card"
+    label: "Card"
+    plural_label: "Cards"
+    folder: "content/cards"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Link", name: "link", widget: "string"}
