@@ -1,0 +1,47 @@
+<style>
+  .card {
+    display: block;
+    width: 85%;
+    margin: 24px auto;
+    box-shadow: 0 6px 24px -6px rgba(0, 0, 95, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    max-width: 420px;
+    padding-bottom: 96px;
+    color: #fff;
+  }
+
+  .card .content {
+    padding: 24px 24px 48px;
+  }
+
+  .card .content .text {
+    max-width: 275px;
+  }
+
+  .card img {
+    position: absolute;
+    width: 50%;
+    aspect-ratio: 1/1;
+    bottom: -20%;
+    right: -10%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+</style>
+
+<script type="style/iterator" collection="categories">
+  .card .{{ .slug }} {
+    background: {{ .color }};
+  }
+</script>
+
+<a class="card {{ category.slug }}" href="{{ link }}">
+  <div class="content">
+    <h2>{{ title }}</h2>
+    <p class="text">{{ body }}</p>
+  </div>
+  <img src="{{ image }}" alt="{{ title }} image" />
+  <div class="footer"></div>
+</a>
