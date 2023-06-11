@@ -1,8 +1,8 @@
 import { google } from 'googleapis';
 import { Handler, HandlerEvent } from '@netlify/functions';
-import { attr } from 'cheerio/lib/api/attributes';
 
 const SHEETS_SERVICE_ACCOUNT = process.env.SHEETS_SERVICE_ACCOUNT;
+const SHEET_ID = process.env.SHEET_ID;
 
 const handler: Handler = async (event: HandlerEvent) => {
   const { data } = JSON.parse(event.body);
@@ -21,7 +21,7 @@ const handler: Handler = async (event: HandlerEvent) => {
   const sheets = google.sheets({ version: 'v4', auth });
 
   await sheets.spreadsheets.values.append({
-    spreadsheetId: '',
+    spreadsheetId: SHEET_ID,
     range: `A:I`,
     insertDataOption: 'INSERT_ROWS',
     valueInputOption: 'RAW',

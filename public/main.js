@@ -18,7 +18,7 @@
     };
 
     await fetch('/.netlify/functions/check-in', {
-      type: 'POST',
+      method: 'POST',
       body: JSON.stringify(payload),
     });
 
@@ -34,9 +34,9 @@
     const successStyle = document.createElement('style');
     successStyle.innerHTML = `
       .checked-in {
-        width: 85%;
-        display: none;
-        margin: 24px auto;
+        width: 100%;
+        display: grid;
+        margin: 24px auto 0;
         border-radius: 8px;
         box-shadow: 0 6px 24px -6px rgba(0, 0, 95, 0.3);
         background: #27d68b;
