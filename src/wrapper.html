@@ -5,6 +5,10 @@
       Flatland Church Today Page | Home Feed | Weekly Updates, Volunteer Opportunities, Spiritual
       Direction
     </title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
@@ -87,7 +91,21 @@
     </script>
   </head>
   <body>
-    <div id="wrapper">{{ children }}</div>
+    <div id="wrapper">
+      <header>
+        <div id="logo">
+          <svg viewBox="0 0 52 52">
+            <g id="logo-glyph">
+              <rect fill="#808080" width="51.499" height="16.333"></rect>
+              <rect y="17.5" fill="#808080" width="51.499" height="16.333"></rect>
+              <rect y="35" fill="#808080" width="16.332" height="16.332"></rect>
+              <rect x="17.583" y="35" fill="#ACC35B" width="33.916" height="16.332"></rect>
+            </g>
+          </svg>
+        </div>
+      </header>
+      {{ children }}
+    </div>
     <script src="/main.js" async defer></script>
   </body>
 </html>
