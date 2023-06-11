@@ -11,6 +11,14 @@
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
+      const gnarlyStringParse = (s) => {
+        try {
+          return JSON.parse(s.trim());
+        } catch (e) {
+          return s?.trim() || '';
+        }
+      };
+
       CMS.registerPreviewStyle('/admin/preview.css');
 
       const CardPreview = createClass({
@@ -67,32 +75,75 @@
       });
 
       const HomePagePreview = createClass({
+        componentDidMount() {
+          this.getCategoryData();
+        },
+
+        getInitialState: function () {
+          return {
+            categoryList: {},
+          };
+        },
+
+        getCategoryData: async function () {
+          const categoriesList = await fetch(
+            'https://api.github.com/repos/Renddslow/today-flatland-church/git/trees/main:content/categories',
+          ).then((d) => d.json());
+          const categories = await Promise.all(
+            categoriesList.tree.map((category) =>
+              fetch(
+                `https://raw.githubusercontent.com/Renddslow/today-flatland-church/main/content/categories/${category?.path}`,
+              ).then(async (d) => ({ text: await d.text(), path: category?.path })),
+            ),
+          );
+          const categoryList = categories
+            .map((category) =>
+              category.text
+                .trim()
+                .split('\n')
+                .reduce(
+                  (acc, line) => {
+                    const [key, value] = line.split(':');
+                    acc[gnarlyStringParse(key)] = gnarlyStringParse(value);
+                    return acc;
+                  },
+                  {
+                    id: category.path.split('.')[0],
+                  },
+                ),
+            )
+            .reduce((acc, category) => ({ ...acc, [category.id]: category }), {});
+          this.setState((s) => ({ ...s, categoryList }));
+        },
+
         render: function () {
+          const fieldsMetaData = this.props.fieldsMetaData.toJS();
+          const { categoryList } = this.state || {};
+
           return h(
             'div',
             { className: 'list' },
             this.props.widgetsFor('cards').map(function (card) {
-              console.log(card.toJS());
+              const { cards } = fieldsMetaData || {};
+              const cardData = cards?.card[card.getIn(['data'])];
+
+              if (!cardData) return h('div', {}, 'Loading...');
 
               return h(
                 'div',
                 {
                   className: 'card',
-                  style: { '--bg': '#f00ff0' },
-                  key: card.getIn(['data', 'id']),
+                  style: { '--bg': categoryList?.[cardData?.category]?.color },
+                  key: card.getIn(['data']),
                 },
                 h(
                   'div',
                   { className: 'content' },
-                  h('h2', {}, card.getIn(['data', 'title']) + ' Event'),
-                  h(
-                    'div',
-                    { className: 'text' },
-                    'This is a preview of a categorized card with about this much text',
-                  ),
+                  h('h2', {}, cardData?.title),
+                  h('div', { className: 'text' }, cardData?.body),
                 ),
                 h('img', {
-                  src: 'https://images.unsplash.com/photo-1579634136617-371ae14f7fee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2F0aGVkcmFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
+                  src: cardData?.image,
                 }),
               );
             }),
