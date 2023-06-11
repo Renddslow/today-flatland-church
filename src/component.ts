@@ -129,6 +129,8 @@ export class Stylesheet {
   }
 
   getStyles() {
-    return Array.from(this.#sheets.keys()).map((name) => this.getStylesForComponent(name));
+    return Array.from(this.#sheets.keys())
+      .map((name) => this.getStylesForComponent(name))
+      .join('');
   }
 }
