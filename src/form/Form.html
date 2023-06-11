@@ -15,6 +15,11 @@
     padding: 24px;
   }
 
+  form h2 {
+    font-size: 20px;
+    margin: 0 0 24px;
+  }
+
   .form-control {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
@@ -125,28 +130,43 @@
   input[type='checkbox']:checked ~ label::after {
     opacity: 1;
   }
+
+  form button[type='submit'] {
+    background: #307cdf;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    appearance: none;
+    border: 0;
+    padding: 14px 24px;
+    cursor: pointer;
+  }
 </style>
 
 <!-- TODO: web component -->
 <form id="check-in">
+  <h2>Let Us Know You Were Here</h2>
   <div class="check-in__row">
     <div class="form-control">
       <label for="given-name">First Name</label>
       <div>
-        <input type="text" id="given-name" name="given-name" autocomplete="given-name" />
+        <input type="text" id="given-name" name="firstName" autocomplete="given-name" required />
       </div>
     </div>
     <div class="form-control">
-      <label for="surname">First Name</label>
+      <label for="family-name">First Name</label>
       <div>
-        <input type="text" id="surname" name="surname" autocomplete="surname" />
+        <input type="text" id="family-name" name="lastName" autocomplete="family-name" required />
       </div>
     </div>
   </div>
   <div class="form-control">
     <label for="email">Email</label>
     <div>
-      <input type="text" id="email" name="email" autocomplete="email" />
+      <input type="text" id="email" name="email" autocomplete="email" required />
     </div>
   </div>
   <fieldset>
@@ -168,9 +188,9 @@
     </div>
   </fieldset>
   <div class="form-control">
-    <label for="prayer-request">Prayer Request</label>
+    <label for="prayer-request">Prayer Request (optional)</label>
     <div>
-      <textarea id="prayer-request" rows="5" name="prayer"></textarea>
+      <textarea id="prayer-request" rows="5" name="prayerRequest"></textarea>
     </div>
   </div>
   <div class="form-control">
@@ -179,4 +199,5 @@
       <textarea id="response" rows="5" name="response"></textarea>
     </div>
   </div>
+  <button type="submit">Check-In</button>
 </form>
