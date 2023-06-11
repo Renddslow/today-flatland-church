@@ -1,5 +1,4 @@
 ---
-id: next-step
 url: 'https://flatland.churchcenter.com/registrations/events/1743630'
 image: 'https://i.imgur.com/vLzs1f7.jpg'
 category: 'next-step'

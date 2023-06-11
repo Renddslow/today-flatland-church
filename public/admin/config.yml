@@ -20,8 +20,9 @@ collections:
               widget: 'relation',
               collection: 'card',
               multiple: true,
-              value_field: 'id',
+              value_field: '{{slug}}',
               search_fields: ['title'],
+              display_fields: ['title']
             }
   - name: 'card'
     label: 'Card'
@@ -40,8 +41,9 @@ collections:
           widget: 'relation',
           collection: 'category',
           multiple: false,
-          value_field: 'id',
+          value_field: '{{slug}}',
           search_fields: ['title'],
+          display_fields: ['title']
         }
   - name: 'category'
     label: 'Category'

@@ -1,5 +1,4 @@
 ---
-id: 'baptism'
 url: 'https://flatlandchurch.com/baptism'
 image: 'https://i.imgur.com/ixDT4ZW.jpg'
 category: 'next-step'

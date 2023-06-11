@@ -1,5 +1,4 @@
 ---
-id: 'transform'
 url: 'https://transform.flatland.church'
 image: 'https://i.imgur.com/vuen9vd.jpg'
 category: 'discipleship'
