@@ -1,12 +1,13 @@
 import fs from 'fs';
 import path from 'path';
+import YAML from 'yaml';
+import templite from 'templite';
 
 import { Stylesheet } from './component';
 import Card from './card';
+import Form from './form';
 import ListPage from './listPage';
 import getCards from './getCards';
-import YAML from 'yaml';
-import templite from 'templite';
 
 const main = async () => {
   console.log('🌤️ Building today app!');
@@ -32,7 +33,8 @@ const main = async () => {
 
   // Render
   const list = new ListPage(stylesheet);
-  const htmlBody = list.render(cardComponents);
+  const form = new Form(stylesheet);
+  const htmlBody = list.render([form, ...cardComponents]);
 
   const url = new URL(import.meta.url);
   const wrapperFilepath = path.join(path.dirname(url.pathname), `wrapper.html`);
