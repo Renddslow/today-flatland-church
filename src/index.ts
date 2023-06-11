@@ -12,7 +12,7 @@ const main = () => {
       color: '#ff0000',
     },
     image: 'https://via.placeholder.com/150',
-    link: 'https://google.com',
+    url: 'https://google.com',
   });
   console.log(card.render());
   console.log('☀️ Building today app!');

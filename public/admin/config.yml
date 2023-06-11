@@ -33,14 +33,14 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'text' }
       - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Link', name: 'url', widget: 'string' }
       - {
           label: 'Category',
           name: 'category',
           widget: 'relation',
           collection: 'category',
           multiple: false,
-          value_field: 'slug',
+          value_field: 'id',
           search_fields: ['title'],
         }
   - name: 'category'

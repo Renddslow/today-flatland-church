@@ -14,12 +14,18 @@
       CMS.registerPreviewStyle('/admin/preview.css');
       const CardPreview = createClass({
         render: function () {
-          const entry = this.props.entry;
+          const { entry, fieldsMetaData } = this.props;
           const image = entry.getIn(['data', 'image']);
           const bg = this.props.getAsset(image);
+          const categoryId = entry.getIn(['data', 'category']);
+          const { category } = fieldsMetaData.toJS();
+
+          const color = category?.category[categoryId]?.color;
+          console.log(color);
+
           return h(
             'a',
-            { className: 'card' },
+            { className: 'card', style: { '--bg': color } },
             h(
               'div',
               { className: 'content' },

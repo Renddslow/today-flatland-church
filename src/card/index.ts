@@ -15,7 +15,7 @@ type Data = {
   body: string;
   category: Category;
   image: string;
-  link: string;
+  url: string;
 };
 
 class Card extends Component {
