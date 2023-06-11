@@ -1,4 +1,5 @@
 ---
+id: events-page
 url: 'https://flatland.churchcenter.com/registrations'
 title: 'Events'
 category: 'updates'

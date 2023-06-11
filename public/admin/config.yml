@@ -20,7 +20,7 @@ collections:
               widget: 'relation',
               collection: 'card',
               multiple: true,
-              value_field: 'slug',
+              value_field: 'id',
               search_fields: ['title'],
             }
   - name: 'card'
