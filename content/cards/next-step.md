@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/1772653'
+url: 'https://flatland.churchcenter.com/registrations/events/1825761'
 image: 'https://i.imgur.com/vLzs1f7.jpg'
 category: 'next-step'
 title: 'Next Step Class'
 ---
 
-Find out more our vision, values, beliefs, what we're doing as church and how you can be a part of it.
+Discover what Flatland is all about and how we can help you move closer to God.
