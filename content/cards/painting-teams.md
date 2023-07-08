@@ -5,4 +5,4 @@ category: 'serve'
 title: 'Painting Teams'
 ---
 
-Help us paint our new counseling center July 15 and 22.
+Help us paint our new counseling center July 10-26.
