@@ -1,6 +1,6 @@
 ---
 url: 'https://flatland.churchcenter.com/registrations/events/1825761'
-image: 'https://i.imgur.com/vLzs1f7.jpg'
+image: 'https://flatlandchurch.com/images/paint-rollers.jpg'
 category: 'serve'
 title: 'Painting Teams'
 ---
