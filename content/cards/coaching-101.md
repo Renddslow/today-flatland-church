@@ -1,6 +1,6 @@
 ---
 url: 'https://registrations.planningcenteronline.com/signups/1859342'
-image: 'https://i.imgur.com/ixDT4ZW.jpg'
+image: 'https://flatlandchurch.com/images/coaching-101.png'
 category: 'discipleship'
 title: 'Coaching 101'
 ---
