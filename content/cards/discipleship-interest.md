@@ -5,4 +5,4 @@ image: 'https://cdn.shopify.com/s/files/1/0023/8315/1163/articles/OTM_Blog_banne
 url: 'https://flatland.churchcenter.com/people/forms/518796'
 ---
 
-Take the first step in your discipleship journey
+Let us help you move to the center of God's kingdom.
