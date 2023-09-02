@@ -1,7 +1,7 @@
 ---
 title: 'Omaha School of Ministry - Give'
 category: 'osm'
-image: 'static/images/osm1.jpg'
+image: 'https://flatlandchurch.com/images/osm1.jpg'
 url: 'https://givebutter.com/qVHhCz'
 ---
 
