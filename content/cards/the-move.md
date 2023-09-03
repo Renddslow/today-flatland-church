@@ -1,7 +1,7 @@
 ---
 title: 'The Move'
-category: 'the-move'
-image: 'https://flatlandchurch.com/images/osm1.jpg'
+category: 'serve'
+image: 'https://flatlandchurch.com/images/series-in-step.jpg'
 url: 'https://flatland.churchcenter.com/giving/to/the-move'
 ---
 
