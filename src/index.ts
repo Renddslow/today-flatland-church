@@ -33,8 +33,8 @@ const main = async () => {
 
   // Render
   const list = new ListPage(stylesheet);
-  const form = new Form(stylesheet);
-  const htmlBody = list.render([form, ...cardComponents]);
+  // const form = new Form(stylesheet);
+  const htmlBody = list.render(cardComponents);
 
   const url = new URL(import.meta.url);
   const wrapperFilepath = path.join(path.dirname(url.pathname), `wrapper.html`);
