@@ -1,6 +1,6 @@
 ---
 url: 'https://flatland.churchcenter.com/people/forms/117417'
-image: 'https://i.imgur.com/ixDT4ZW.jpg'
+image: 'https://flatlandchurch.com/images/flatland144-fall.jpg'
 category: 'next-step'
 title: 'Connection Card'
 ---
