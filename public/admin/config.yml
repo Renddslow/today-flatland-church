@@ -2,18 +2,56 @@ backend:
   name: github
   repo: Renddslow/today-flatland-church
   branch: main
-publish_mode: editorial_workflow
 media_folder: public/img
 public_folder: /img
 collections:
-  - name: "card"
-    label: "Card"
-    plural_label: "Cards"
-    folder: "content/cards"
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Home'
+        name: 'home'
+        file: 'content/home.yml'
+        create: false
+        fields:
+          - {
+              label: 'Cards',
+              name: 'cards',
+              widget: 'relation',
+              collection: 'card',
+              multiple: true,
+              value_field: '{{slug}}',
+              search_fields: ['title'],
+              display_fields: ['title']
+            }
+  - name: 'card'
+    label: 'Card'
+    plural_label: 'Cards'
+    folder: 'content/cards'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Link", name: "link", widget: "string"}
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'text' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Link', name: 'url', widget: 'string' }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'relation',
+          collection: 'category',
+          multiple: false,
+          value_field: '{{slug}}',
+          search_fields: ['title'],
+          display_fields: ['title']
+        }
+  - name: 'category'
+    label: 'Category'
+    plural_label: 'Categories'
+    folder: 'content/categories'
+    create: true
+    slug: '{{slug}}'
+    format: 'yaml'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description (admin only)', name: 'description', widget: 'text' }
+      - { label: 'Color', name: 'color', widget: 'color' }
