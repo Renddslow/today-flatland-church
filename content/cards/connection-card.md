@@ -5,4 +5,4 @@ category: 'next-step'
 title: 'Connection Card'
 ---
 
-Check in, submit a prayer request, and let us help you take your next step.
+Check in and let us know you were here!
