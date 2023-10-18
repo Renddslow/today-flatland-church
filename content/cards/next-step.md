@@ -1,8 +1,8 @@
 ---
 url: 'https://flatland.churchcenter.com/registrations/events/1877033'
-image: 'https://i.imgur.com/vLzs1f7.jpg'
+image: 'https://flatlandchurch.com/images/flatland101.jpg'
 category: 'next-step'
-title: 'Next Step Class'
+title: 'Flatland 101'
 ---
 
-Discover what Flatland is all about and how we can help you move closer to God.
+Take our Next Step Class to discover what Flatland is all.
