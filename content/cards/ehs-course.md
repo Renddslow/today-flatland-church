@@ -5,4 +5,4 @@ category: 'discipleship'
 title: 'Emotionally Healthy Spirituality Course'
 ---
 
-This 8-week course begins Sunday, November 19.
+Begins Sunday, November 19
