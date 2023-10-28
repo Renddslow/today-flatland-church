@@ -5,5 +5,4 @@ category: 'next-step'
 title: 'Connection Card'
 ---
 
-Check in and let us know
-you were here!
+Check in. Let us know you were here.
