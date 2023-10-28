@@ -5,4 +5,4 @@ category: 'next-step'
 title: 'Life Groups'
 ---
 
-Connect with a group of people who are passionate about moving to the center together.
+Connect with people who are passionate about moving to the center.
