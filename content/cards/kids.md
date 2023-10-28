@@ -5,4 +5,4 @@ image: 'https://flatlandchurch.com/images/kids2022.jpg'
 category: 'ministry'
 ---
 
-Find out more about our kids' ministry
+Check out our kids' ministry.
