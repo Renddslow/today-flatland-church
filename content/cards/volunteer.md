@@ -5,4 +5,4 @@ category: 'serve'
 title: 'Join the Team'
 ---
 
-At Flatland Church we value collaboration as we work together to help people move to the center. Find a place where you can serve at Flatland.
+Help us help others.
