@@ -5,4 +5,4 @@ category: 'next-step'
 title: 'Life Groups'
 ---
 
-Find community and acceptance while growing in your walk with Jesus.
+Moving to the center is easier when you do it in community.
