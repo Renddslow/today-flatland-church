@@ -5,4 +5,4 @@ category: 'next-step'
 title: 'Life Groups'
 ---
 
-Moving to the center is easier when you do it in community.
+Connect with a group of people who are passionate about moving to the center together.
