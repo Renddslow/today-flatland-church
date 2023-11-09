@@ -1,6 +1,6 @@
 ---
 title: 'Sorrow Practice'
-category: 'discipleship'
+category: 'updates'
 image: 'https://flatlandchurch.com/images/series-the-practice-of-sorrow.jpg'
 url: 'https://forms.gle/D4eEEJvmYHQt9Qth6'
 ---
