@@ -2,7 +2,7 @@
 title: 'Sorrow Practice'
 category: 'updates'
 image: 'https://flatlandchurch.com/images/series-the-practice-of-sorrow.jpg'
-url: 'https://forms.gle/D4eEEJvmYHQt9Qth6'
+url: 'https://forms.gle/CPS7DRBbV6G8uomz5'
 ---
 
 Engage with our first practice of sorrow.
