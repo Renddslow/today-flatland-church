@@ -5,5 +5,4 @@ category: 'updates'
 title: 'Christmas Eve'
 ---
 
-Christmas Eve Services<br>
-10:00am and 3:30pm
+Celebrate with us at either 10:00am or 3:30pm.
