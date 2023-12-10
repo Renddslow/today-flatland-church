@@ -1,6 +1,5 @@
 cards:
   - connection-card
-  - the-move
   - 101
   - give
   - baptism
@@ -8,4 +7,5 @@ cards:
   - youth
   - groups
   - volunteer
+  - the-move
   - events-page
