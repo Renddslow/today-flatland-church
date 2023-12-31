@@ -1,7 +1,7 @@
 ---
 url: 'https://bibleproject.com/app/'
 image: 'https://flatlandchurch.com/images/bible-project.jpg'
-category: 'men'
+category: 'ministry'
 title: 'Bible Project'
 ---
 
