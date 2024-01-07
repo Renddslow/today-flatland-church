@@ -1,0 +1,154 @@
+name: Blessed
+image: https://ik.imagekit.io/omasom/tr:w-500,h-900/freedom+center+main+image.jpg?updatedAt=1704572175817
+starts_at: 2024-01-06
+weeks:
+  - name: The Teacher
+    summary: |
+      ## Summary of Matthew 1-4
+      1. Genealogy of Jesus [[Matthew 1:1-17]]
+      2. Birth of Jesus [[Matthew 1:18-25]]
+      3. Magi visit Jesus [[Matthew 2:1-12]]
+      4. Jesus escapes to Egypt [[Matthew 2:13-18]]
+      5. Jesus returns to Israel [[Matthew 2:19-23]]
+      6. The baptism of Jesus [[Matthew 3:1-17]]
+      7. The temptation of Jesus [[Matthew 4:1-11]]
+      8. The beginning of Jesus’ ministry [[Matthew 4:12-25]]
+    questions:
+      - What stands out to you in Matthew’s introduction of Jesus in chapters 1-4?
+      - Matthew highlights the beginning of Jesus’ ministry in Matthew 4:17 (NIV), “From that time on Jesus began to preach, ==“Repent, for the kingdom of heaven has come near.”== What did He mean by this?
+      - What would it have been like to be in Galilee in the time of [[Matthew 4:23-25]]?
+      - How familiar are you with the Sermon on the Mount?
+      - Have you started going through [BibleProject’s material](https://bibleproject.com/playlists/introducing-the-sermon-on-the-mount) on the Sermon on the Mount? If so, what is something that has stood out to you so far?
+      - When you think of changing your lifestyle as Jesus leads you, what comes to your mind?
+    announcements:
+      - card: "101"
+        description: "Sign up for Flatland 101: Wednesday, January 17, 7:00-8:30 PM"
+      - card: week-of-prayer
+        description: "Engage in our Week of Prayer"
+      - card: discipleship-interest
+        description: Sign up for our Discipleship Pathway and complete at least one unit this year.
+  - name: The Way
+    summary: |
+      The first word in Jesus’ sermon on the mount is μακάριος (makarios). We often translate this Greek word as “blessed.” It describes a life that is good. Jesus used this word nine times at the beginning of Matthew 5. This opening to the Sermon on the Mount is often referred to as The Beatitudes. In the book of Matthew, Jesus used this word, makarios, four additional times (see below).
+    scriptures:
+      - ref: Matthew 11:4-6
+        version: NIV
+        flipped:
+          - makarios
+      - ref: Matthew 13:16-17
+        version: NIV
+        flipped:
+          - makarios
+      - ref: Matthew 16:16-17
+        version: NIV
+        flipped:
+          - makarios
+      - ref: Matthew 24:45-46
+        version: NIV
+        flipped:
+          - makarios
+    questions:
+      - What stands out to you from these four statements?
+      - In what ways do these statements correspond to the Sermon on the Mount?
+      - How is Jesus’ definition of blessed different from most people’s definition?
+      - How blessed is your life in terms of Jesus’ definition?
+      - How do we live differently when we view our lives on Jesus’ terms?
+      - What impact will we have as Jesus’ followers if we truly live life on His terms?
+    announcements:
+      - card: "101"
+        description: "Sign up for Flatland 101: Wednesday, January 17, 7:00-8:30 PM"
+      - card: discipleship-interest
+        description: Sign up for our Discipleship Pathway and complete at least one unit this year.
+  - name: The Torah
+    summary: |
+      Jesus highlights a small sample of laws from the Torah in His sermon and expounds on them. One of them was the sixth commandment: “You shall not murder” (Exodus 20:13). Take time to explore and discuss His interpretation of this commandment for His followers. What type of blessed life is He suggesting His followers in the kingdom of heaven will live?
+    scriptures:
+      - ref: Matthew 5:21-26
+        version: NIV
+    questions:
+      - According to Jesus, how are citizens of the kingdom of heaven different from the typical citizens of any kingdom of the world?
+      - Based on this passage, how or why would citizens of the kingdom of heaven experience more blessing than a person of the world?
+      - "How does Jesus’ interpretation of the Law move it away from a legal code to a way of being: a way of viewing life and relationships?"
+      - How can your view of difficult people and the way you resolve conflict with them become more in line with the way of Christ?
+      - How do you think God wants to help you do this?
+      - In what ways might this new perspective or way of relating help you feel more blessed?
+    announcements:
+      - card: discipleship-interest
+        description: One of our units in the Discipleship Pathway is The Ten Commandments. Sign up for our Discipleship Pathway and complete at least one unit this year. You can request to start with The Ten Commandments if you’d like.
+  - name: The Secret
+    scriptures:
+      - ref: Matthew 6:3-4
+        version: NIV
+        flipped:
+          - kryptos
+      - ref: Matthew 6:6
+        version: NIV
+        flipped:
+          - kryptos
+      - ref: Matthew 6:17-18
+        version: NIV
+        flipped:
+          - kryptos
+      - ref: Romans 2:28-29
+        version: NIV
+        flipped:
+          - kryptos
+      - ref: 1 Peter 3:3-4
+        version: NIV
+        flipped:
+          - kryptos
+    questions:
+      - What do these passages teach us about the inner self?
+      - Why is a heart full of prayer, generosity, gentleness and peace of such great worth to God?
+      - How do you think God rewards those who seek Him with all their heart?
+      - What happens to our heart when we long for the praise of other people?
+      - How do you know when your heart is right with God?
+      - What are some of the effective ways you have guarded your “kryptos” self?
+    announcements:
+      - card: discipleship-interest
+        description: One of our units in the Discipleship Pathway is The Lord’s Prayer. Sign up for our Discipleship Pathway and complete at least one unit this year. You can request to start with The Lord’s Prayer if you’d like.
+  - name: The Provision
+    scriptures:
+      - ref: Matthew 6:19-21
+        version: NIV
+      - ref: Matthew 6:24
+        version: NIV
+      - ref: Matthew 7:9-11
+        version: NIV
+    questions:
+      - How would you describe Jesus’ perspective on earthly possessions?
+      - What is the difference between using money and treasuring or serving it?
+      - What good gifts do you think God gives to His children?
+      - How do you know when you are treasuring or serving earthly things?
+      - Why are we so quick to judge others for how they use their possessions?
+      - What would it look like for you to trust God more?
+    announcements:
+      - card: if-gathering-2024
+        description: "Ladies, sign up for the IF: Gathering on February 23-24."
+      - card: ""
+        description: "Men, mark your calendars for our Men’s Event on April 19-20."
+      - card: baptism
+        description: "Get Baptized Sunday, February 18."
+  - name: The Rock
+    scriptures:
+      - ref: Matthew 7:24-27
+        version: NIV
+    questions:
+      - What do the rain, streams and wind symbolize in this parable?
+      - What does the house symbolize?
+      - What does this say about God’s desire for our lives?
+      - Which of Jesus’ words in this sermon challenges you the most?
+      - What keeps you from putting Jesus’ words into practice more often?
+      - What is your biggest take away from this series?
+    announcements:
+      - card: if-gathering-2024
+        description: "Ladies, sign up for the IF: Gathering on February 23-24."
+      - card: ""
+        description: "Men, mark your calendars for our Men’s Event on April 19-20."
+      - card: baptism
+        description: "Get Baptized Sunday, February 18."
+
+
+
+
+

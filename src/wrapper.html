@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/eaff6932f9.js" crossorigin="anonymous"></script>
     <meta
       name="description"
       content="Flatland's central hub for updates and opportunities for moving to the center."
@@ -71,6 +72,40 @@
         width: 48px;
         margin: 0 auto 48px;
       }
+
+      footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 24px;
+        z-index: 1000;
+      }
+
+      footer nav {
+        width: max-content;
+        margin: 0 auto;
+        border-radius: 50px;
+        box-sizing: border-box;
+        padding: 12px 36px;
+        background: #efefef;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, max-content));
+        align-items: center;
+        justify-content: center;
+        grid-gap: 24px;
+        box-shadow: 0 6px 24px -12px rgba(0, 0, 95, 0.4);
+      }
+
+      footer nav a {
+        color: #172b4d;
+        text-decoration: none;
+        position: relative;
+        cursor: pointer;
+      }
+
+      footer nav a.active {
+        color: #ff3b00;
+      }
     </style>
     <style>
       {{ stylesheet }}
@@ -111,6 +146,13 @@
       </header>
       {{ children }}
     </div>
+    <footer>
+      <nav>
+        <a href="/" aria-label="Home Feed"><i class="fa fa-home"></i></a>
+        <a href="/owners-manual" aria-label="Owners Manual"><i class="fa-solid fa-note-sticky"></i></a>
+        <a href="/bible" aria-label="Owners Manual"><i class="fa fa-book-open"></i></a>
+      </nav>
+    </footer>
     <script src="/main.js" async defer></script>
   </body>
 </html>

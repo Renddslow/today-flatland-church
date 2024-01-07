@@ -8,6 +8,7 @@ import Card from './card';
 import Form from './form';
 import ListPage from './listPage';
 import getCards from './getCards';
+import getOwnersManuals from './getOwnersManuals';
 
 const main = async () => {
   console.log('🌤️ Building today app!');
@@ -44,6 +45,9 @@ const main = async () => {
     path.join(process.cwd(), 'public/index.html'),
     templite(wrapper, { children: htmlBody, stylesheet: stylesheet.getStyles() }),
   );
+  const manuals = await getOwnersManuals();
+  fs.writeFileSync(path.join(process.cwd(), 'public/manuals.json'), JSON.stringify(manuals));
+  fs.writeFileSync(path.join(process.cwd(), 'public/cards.json'), JSON.stringify(cards));
   const tock = Date.now();
   console.log(`🌤️ Built today app in ${tock - tick}ms!`);
 };
