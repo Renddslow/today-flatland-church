@@ -101,6 +101,7 @@
         text-decoration: none;
         position: relative;
         cursor: pointer;
+        font-size: 20px;
       }
 
       footer nav a.active {
@@ -259,6 +260,29 @@
       #editor {
         margin-top: 12px;
       }
+
+      @keyframes slideUp {
+        0% {
+          transform: translateY(100%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      iframe.bible-overlay {
+        position: fixed;
+        bottom: 0;
+        height: 90vh;
+        overflow-y: scroll;
+        width: 100%;
+        background: #fff;
+        z-index: 1000;
+        border: 0;
+        border-radius: 12px 12px 0 0;
+        box-shadow: 0 1px 38px -1px rgba(0, 0, 0, 0.4);
+        animation: slideUp 0.3s ease-in-out;
+      }
     </style>
   </head>
   <body>
@@ -283,9 +307,12 @@
         <a href="/owners-manual" aria-label="Owners Manual"
           ><i class="fa-solid fa-note-sticky"></i
         ></a>
-        <a href="/bible" aria-label="Owners Manual"><i class="fa fa-book-open"></i></a>
+        <a href="/bible" id="bible-button" aria-label="Owners Manual"
+          ><i class="fa fa-book-open"></i
+        ></a>
       </nav>
     </footer>
+    <script src="/bible-overlay.js"></script>
     <script type="module">
       import { createCover } from '/owners-manual.js';
 

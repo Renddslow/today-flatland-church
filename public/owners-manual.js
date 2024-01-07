@@ -119,9 +119,25 @@ const renderWeek = (parent, manual, week, idx) => {
       announcementsContainer.appendChild(cardEl);
     });
     parent.appendChild(announcements);
+    document.querySelectorAll('.scripture-ref').forEach((el) => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        const refRaw = e.target.dataset.ref;
+        const [bookChapter, verse] = refRaw.split(':');
+        const [book, chapter] = bookChapter.split(' ');
+        const bookId = BOOK_TO_REF[book];
+        const ref = `${bookId}${chapter}.${verse}`;
+
+        window.launchBible(`/bible?ref=${ref}`);
+      });
+    });
   }
 
   // TODO: add navigation
+};
+
+const BOOK_TO_REF = {
+  Matthew: 'mat',
 };
 
 const renderMarkdown = (text) => {

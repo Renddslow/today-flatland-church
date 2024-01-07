@@ -108,7 +108,7 @@
         <button class="close"></button>
         <nav>
           <button class="selector">Matthew 1 (NIV)</button>
-          <button class="selector hide-verses" data-verses="false">Show Verse Numbers</button>
+          <button class="selector hide-verses" data-verses="false">Toggle Verses</button>
         </nav>
       </header>
       <section></section>
@@ -138,7 +138,7 @@
         const ref = search.get('ref')?.toLowerCase() || 'mat1';
         const version = search.get('version')?.toLowerCase() || 'niv';
         if (!search.has('ref')) {
-          history.pushState({}, '', `/bible?ref=${ch}&version=${version}`);
+          history.replaceState({}, '', `/bible?ref=${ref}&version=${version}`);
         }
 
         document.querySelector('.hide-verses').addEventListener('click', (e) => {
@@ -189,6 +189,11 @@
           });
 
         document.querySelector('section').innerHTML = `<h1>${chapterTitle}</h1>${lines.join('\n')}`;
+        document.querySelector('.close').addEventListener('click', () => {
+          if (window.parent) {
+            window.parent.postMessage('close-bible-overlay', '*');
+          }
+        });
       })();
     </script>
   </body>
