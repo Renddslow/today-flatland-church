@@ -51,6 +51,8 @@
         display: block;
         width: 100%;
         padding: 24px;
+        position: sticky;
+        top: 0;
       }
 
       nav {
@@ -97,8 +99,16 @@
         display: inline;
       }
 
-      .li {
+      .li,
+      .li1,
+      .q,
+      .q1 {
         padding-left: 24px;
+      }
+
+      .li2,
+      .q2 {
+        padding-left: 48px;
       }
     </style>
   </head>
@@ -121,7 +131,7 @@
        * @returns {string}
        */
       const getLineModifier = (line) => {
-        const lineStyleRegexpr = /^\\(lh|lf|li)/;
+        const lineStyleRegexpr = /^\\(lh|lf|li(\d)?|q(\d)?)/;
         if (!lineStyleRegexpr.test(line)) {
           return '';
         }
