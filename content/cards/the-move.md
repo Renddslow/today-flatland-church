@@ -1,7 +1,7 @@
 ---
 title: 'The Move'
 category: 'serve'
-image: '/images/the-move-cover.jpg'
+image: 'https://flatlandchurch.com/images/the-move-cover.jpg'
 url: 'https://flatlandchurch.com/the-move-project-guide-2024.pdf'
 ---
 
