@@ -194,9 +194,10 @@
         margin-bottom: 12px;
       }
 
-      .scripture-ref {
+      .scripture-ref,
+      .lexicon-ref {
         line-height: 22px;
-        padding: 2px 4px;
+        padding: 2px 4px 2px 2px;
         -webkit-box-decoration-break: clone;
         border-radius: 4px;
         color: #0052cc;
@@ -211,12 +212,24 @@
         flex-wrap: wrap;
       }
 
+      .lexicon-ref {
+        color: #a8005a;
+      }
+
       .scripture-ref i {
         color: #fff;
         background: #0052cc;
         font-size: 10px;
         border-radius: 4px;
         padding: 3px;
+      }
+
+      .lexicon-ref i {
+        color: #fff;
+        background: #a8005a;
+        font-size: 10px;
+        border-radius: 4px;
+        padding: 2px 4px;
       }
 
       mark {
@@ -259,6 +272,11 @@
 
       #editor {
         margin-top: 12px;
+      }
+
+      .summary {
+        margin-top: 48px;
+        line-height: 1.5;
       }
 
       @keyframes slideUp {

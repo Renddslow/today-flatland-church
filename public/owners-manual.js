@@ -1,4 +1,5 @@
 import 'https://unpkg.com/snarkdown@2.0.0/dist/snarkdown.umd.js';
+import { getChapter, parseContent } from './render-bible.js';
 
 export const createCover = (manual) => {
   const cover = document.createElement('div');
@@ -65,12 +66,44 @@ const renderWeek = (parent, manual, week, idx) => {
 
   if (week.summary) {
     const summary = document.createElement('div');
+    summary.classList.add('summary');
     summary.innerHTML = renderMarkdown(week.summary);
     parent.appendChild(summary);
   }
 
   if (week.scriptures && week.scriptures.length) {
-    // TODO
+    const scriptures = document.createElement('div');
+    scriptures.classList.add('scriptures');
+    parent.appendChild(scriptures);
+    console.log(week.scriptures);
+    Promise.all(
+      week.scriptures.map(async (s) => ({
+        ...(await getChapter(s.ref, 'niv')),
+        ...s,
+      })),
+    ).then((res) => {
+      res.forEach(({ content, title, flipped }) => {
+        const chapter = document.createElement('div');
+        chapter.classList.add('chapter');
+        chapter.innerHTML = `<h2>${title}</h2>${parseContent(content).join('\n')}`;
+        if (flipped.length) {
+          chapter.querySelectorAll(`.lexicon[data-strongs="${flipped[0]}"]`).forEach((el) => {
+            const a = document.createElement('a');
+            const i = document.createElement('i');
+            a.appendChild(i);
+            a.href = el.dataset.href;
+            a.classList.add('lexicon-ref');
+            a.target = '_blank';
+            a.innerHTML = `<i class="strongs">${
+              el.dataset.strongs
+            }</i><span>${el.dataset.transliteration.replace(/_(.*?)_/, '<em>$1</em>')}</span>`;
+
+            el.parentNode.replaceChild(a, el);
+          });
+        }
+        scriptures.appendChild(chapter);
+      });
+    });
   }
 
   if (week.questions) {

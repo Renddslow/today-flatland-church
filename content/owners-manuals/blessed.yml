@@ -29,24 +29,24 @@ weeks:
         description: Sign up for our Discipleship Pathway and complete at least one unit this year.
   - name: The Way
     summary: |
-      The first word in Jesus’ sermon on the mount is μακάριος (makarios). We often translate this Greek word as “blessed.” It describes a life that is good. Jesus used this word nine times at the beginning of Matthew 5. This opening to the Sermon on the Mount is often referred to as The Beatitudes. In the book of Matthew, Jesus used this word, makarios, four additional times (see below).
+      The first word in Jesus’ sermon on the mount is μακάριος (_makarios_). We often translate this Greek word as “blessed.” It describes a life that is good. Jesus used this word nine times at the beginning of Matthew 5. This opening to the Sermon on the Mount is often referred to as The Beatitudes. In the book of Matthew, Jesus used this word, _makarios_, four additional times (see below).
     scriptures:
-      - ref: Matthew 11:4-6
+      - ref: MAT11.4-6
         version: NIV
         flipped:
-          - makarios
-      - ref: Matthew 13:16-17
+          - G3107
+      - ref: MAT13.16-17
         version: NIV
         flipped:
-          - makarios
-      - ref: Matthew 16:16-17
+          - G3107
+      - ref: MAT16.16-17
         version: NIV
         flipped:
-          - makarios
-      - ref: Matthew 24:45-46
+          - G3107
+      - ref: MAT24.45-46
         version: NIV
         flipped:
-          - makarios
+          - G3107
     questions:
       - What stands out to you from these four statements?
       - In what ways do these statements correspond to the Sermon on the Mount?
@@ -77,23 +77,23 @@ weeks:
         description: One of our units in the Discipleship Pathway is The Ten Commandments. Sign up for our Discipleship Pathway and complete at least one unit this year. You can request to start with The Ten Commandments if you’d like.
   - name: The Secret
     scriptures:
-      - ref: Matthew 6:3-4
+      - ref: MAT6.3-4
         version: NIV
         flipped:
           - kryptos
-      - ref: Matthew 6:6
+      - ref: MAT6.6
         version: NIV
         flipped:
           - kryptos
-      - ref: Matthew 6:17-18
+      - ref: MAT6.17-18
         version: NIV
         flipped:
           - kryptos
-      - ref: Romans 2:28-29
+      - ref: ROM2.28-29
         version: NIV
         flipped:
           - kryptos
-      - ref: 1 Peter 3:3-4
+      - ref: 1PE3.3-4
         version: NIV
         flipped:
           - kryptos
@@ -109,11 +109,11 @@ weeks:
         description: One of our units in the Discipleship Pathway is The Lord’s Prayer. Sign up for our Discipleship Pathway and complete at least one unit this year. You can request to start with The Lord’s Prayer if you’d like.
   - name: The Provision
     scriptures:
-      - ref: Matthew 6:19-21
+      - ref: MAT6.19-21
         version: NIV
-      - ref: Matthew 6:24
+      - ref: MAT6.24
         version: NIV
-      - ref: Matthew 7:9-11
+      - ref: MAT7.9-11
         version: NIV
     questions:
       - How would you describe Jesus’ perspective on earthly possessions?
@@ -131,7 +131,7 @@ weeks:
         description: "Get Baptized Sunday, February 18."
   - name: The Rock
     scriptures:
-      - ref: Matthew 7:24-27
+      - ref: MAT7.24-27
         version: NIV
     questions:
       - What do the rain, streams and wind symbolize in this parable?
