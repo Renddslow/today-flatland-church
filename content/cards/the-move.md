@@ -1,8 +1,8 @@
 ---
 title: 'The Move'
 category: 'serve'
-image: 'https://flatlandchurch.com/images/series-in-step.jpg'
-url: 'https://flatland.churchcenter.com/giving/to/the-move'
+image: '/images/the-move-cover.jpg'
+url: 'https://flatlandchurch.com/the-move-project-guide-2024.pdf'
 ---
 
-Give to The Move and help us prepare the next generation of ministers.
+Check out our 2024 Project Guide!
