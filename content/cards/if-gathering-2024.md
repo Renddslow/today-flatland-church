@@ -5,4 +5,5 @@ category: 'women'
 title: 'IF: Gathering 2024'
 ---
 
-Ladies, sign up for the IF: Gathering on February 23-24.
+Women's Event
+IF: Gathering on February 23-24.
