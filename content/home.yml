@@ -1,6 +1,7 @@
 cards:
   - connection-card
   - 101
+  - volunteer
   - kids
   - youth
   - groups
@@ -10,4 +11,3 @@ cards:
   - the-move
   - give
   - events-page
-  - volunteer
