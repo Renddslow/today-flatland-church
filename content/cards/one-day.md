@@ -1,7 +1,7 @@
 ---
 url: 'https://flatland.churchcenter.com/giving/to/one-day-to-feed-the-world'
 image: 'https://flatlandchurch.com/images/one-day.png'
-category: 'next-step'
+category: 'ministry'
 title: 'One Day'
 ---
 
