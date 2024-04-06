@@ -6,4 +6,3 @@ title: 'Youth Camp'
 ---
 
 June 3-7, 2024
-Registration Is Now Open!
