@@ -5,4 +5,4 @@ image: 'https://flatlandchurch.com/images/workday.jpeg'
 url: 'https://flatland.churchcenter.com/registrations/events/2281939'
 ---
 
-Help us do some spring cleaning May 4.
+Help us with spring cleaning May 4.
