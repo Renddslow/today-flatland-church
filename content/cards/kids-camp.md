@@ -1,6 +1,6 @@
 ---
 url: 'https://form.jotform.com/NEAG/kids-camp-1---student-registration-'
-image: 'https://flatlandchurch.com/images/kids-youth.png'
+image: 'https://flatlandchurch.com/images/camp-kids.jpg'
 category: 'ministry'
 title: 'Kids Camp'
 ---
