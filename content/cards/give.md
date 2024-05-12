@@ -1,6 +1,6 @@
 ---
 title: 'Give Online'
-category: 'serve'
+category: 'next-step'
 image: 'https://flatlandchurch.com/images/give.jpg'
 url: 'https://flatland.churchcenter.com/giving/to/general-offerings'
 ---
