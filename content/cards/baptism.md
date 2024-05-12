@@ -5,4 +5,4 @@ category: 'ministry'
 title: 'Get Baptized'
 ---
 
-Get baptized on Easter Sunday!
+Get baptized on Sunday, May 19!
