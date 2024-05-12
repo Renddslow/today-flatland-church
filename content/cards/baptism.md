@@ -1,7 +1,7 @@
 ---
 url: 'https://flatland.churchcenter.com/people/forms/178622'
 image: 'https://i.imgur.com/ixDT4ZW.jpg'
-category: 'next-step'
+category: 'ministry'
 title: 'Get Baptized'
 ---
 
