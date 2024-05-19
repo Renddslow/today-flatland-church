@@ -5,4 +5,4 @@ category: 'ministry'
 title: 'Get Baptized'
 ---
 
-Get baptized on Sunday, May 19!
+Let us help you take your next step!
