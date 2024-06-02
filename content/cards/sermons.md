@@ -1,7 +1,7 @@
 ---
 url: 'https://flatlandchurch.com/series/messiah'
 image: 'https://flatlandchurch.com/images/series-messiah.jpg'
-category: 'updates'
+category: 'ministry'
 title: 'Messiah'
 ---
 
