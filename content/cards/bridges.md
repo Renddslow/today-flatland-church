@@ -5,5 +5,4 @@ category: 'next-step'
 title: 'Loving Our Muslim Neighbors Workshop'
 ---
 
-Build relationships with Muslim neighbors.<br>
 July 13 at 9:00-11:30am
