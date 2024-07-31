@@ -1,12 +1,10 @@
 cards:
   - connection-card
-  - bible-project
-  - coh-trip
   - baptism
-  - osm-torah
-  - osm-how-to-read
   - communion
   - give
+  - osm-torah
+  - osm-how-to-read
   - kids
   - youth
   - the-move
