@@ -1,8 +1,8 @@
 ---
-url: 'https://bibleproject.com/explore/video/bible-jewish-meditation-literature-h2r'
+url: 'https://bibleproject.com/explore/video/what-is-bible/'
 image: 'https://flatlandchurch.com/images/bible-project.jpg'
 category: 'ministry'
 title: 'Bible Project'
 ---
 
-Ancient Jewish Meditation Literature
+What is the Bible?
