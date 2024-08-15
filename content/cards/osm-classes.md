@@ -1,7 +1,7 @@
 ---
 url: 'https://flatland.churchcenter.com/registrations/events/category/84872'
 image: 'https://flatlandchurch.com/images/osm.png'
-category: 'discipleship'
+category: 'serve'
 title: 'OSM Class'
 ---
 
