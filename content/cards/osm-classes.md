@@ -2,8 +2,7 @@
 url: 'https://flatland.churchcenter.com/registrations/events/category/84872'
 image: 'https://flatlandchurch.com/images/osm.png'
 category: 'serve'
-title: 'OSM Class'
+title: 'Omaha School of Ministry'
 ---
 
-Omaha School of Ministry
 Sign up for a class
