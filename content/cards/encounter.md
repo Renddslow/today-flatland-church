@@ -1,5 +1,5 @@
 ---
-image: 'https://flatlandchurch.com/images/encounter.jpg'
+image: 'https://flatlandchurch.com/images/encounter.png'
 category: 'serve'
 title: 'Encounter Night'
 ---
