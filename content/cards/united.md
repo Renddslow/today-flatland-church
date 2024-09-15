@@ -1,6 +1,6 @@
 ---
 title: 'Flatland United'
-category: 'osm'
+category: 'ministry'
 image: 'https://flatlandchurch.com/images/flatland-144.jpg'
 url: 'https://flatlandchurch.com/united'
 ---
