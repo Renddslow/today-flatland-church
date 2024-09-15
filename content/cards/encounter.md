@@ -1,6 +1,6 @@
 ---
 image: 'https://flatlandchurch.com/images/encounter.png'
-category: 'serve'
+category: 'osm'
 title: 'Encounter Night'
 ---
 
