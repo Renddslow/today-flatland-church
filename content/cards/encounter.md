@@ -1,0 +1,8 @@
+---
+image: 'https://flatlandchurch.com/images/encounter.jpg'
+category: 'serve'
+title: 'Encounter Night'
+---
+
+Join us for worship, prayer and more.<br>
+Tonight at 6:00pm!
