@@ -1,5 +1,5 @@
 ---
-url: 'https://flatlandchurch.com/series/messiah'
+url: 'https://flatlandchurch.com/series/666/'
 image: 'https://flatlandchurch.com/images/series-666.jpg'
 category: 'ministry'
 title: '666'
