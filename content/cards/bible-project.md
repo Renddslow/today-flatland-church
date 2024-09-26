@@ -1,8 +1,8 @@
 ---
-url: 'https://bibleproject.com/explore/video/what-is-bible/'
+url: 'https://bibleproject.com/explore/video/chaos-dragon/
 image: 'https://flatlandchurch.com/images/bible-project.jpg'
 category: 'ministry'
-title: 'Bible Project'
+title: 'Chaos Dragon'
 ---
 
-What is the Bible?
+A Bible Project theme video
