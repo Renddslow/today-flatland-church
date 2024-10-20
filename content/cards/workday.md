@@ -1,8 +1,8 @@
 ---
 title: 'All Church Workday'
 category: 'serve'
-image: 'https://flatlandchurch.com/images/workday.jpeg'
-url: 'https://flatland.churchcenter.com/registrations/events/2281939'
+image: 'https://flatlandchurch.com/images/workday.png'
+url: 'https://flatland.churchcenter.com/registrations/events/2509680'
 ---
 
-Help us with spring cleaning May 4.
+Help us at Flatland 174 Oct 26.
