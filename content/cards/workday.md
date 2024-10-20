@@ -1,6 +1,6 @@
 ---
 title: 'All Church Workday'
-category: 'serve'
+category: 'ministry'
 image: 'https://flatlandchurch.com/images/workday.png'
 url: 'https://flatland.churchcenter.com/registrations/events/2509680'
 ---
