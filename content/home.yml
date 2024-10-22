@@ -1,13 +1,13 @@
 cards:
   - connection-card
-  - workday
-  - kids
   - bible-project
-  - baptism
-  - discipleship-interest
   - worship
   - communion
   - give
+  - baptism
+  - marriagecourse
+  - discipleship-interest
+  - kids
   - youth
   - the-move
   - volunteer
