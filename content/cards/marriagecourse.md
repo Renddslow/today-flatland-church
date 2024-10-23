@@ -1,6 +1,6 @@
 ---
 url: 'https://flatland.churchcenter.com/registrations/events/2573529'
-image: 'https://flatlandchurch.com/images/flc-marriagecourse.png'
+image: 'https://flatlandchurch.com/images/marriagecourse.png'
 category: 'serve'
 title: 'The Marriage Course'
 ---
