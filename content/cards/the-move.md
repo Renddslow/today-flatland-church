@@ -2,7 +2,8 @@
 title: 'The Move'
 category: 'serve'
 image: 'https://flatlandchurch.com/images/the-move-cover.jpg'
-url: 'https://flatlandchurch.com/the-move-project-guide-2024.pdf'
+url: 'https://flatland.churchcenter.com/giving/to/the-move'
 ---
 
-Check out our 2024 Project Guide!
+Give to The Move!
+You can also text to give: 84321
