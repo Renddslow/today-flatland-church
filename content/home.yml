@@ -1,7 +1,7 @@
 cards:
   - connection-card
-  - the-move
   - marriagecourse
+  - events-page
   - discipleship-interest
   - baptism
   - communion
@@ -9,5 +9,5 @@ cards:
   - kids
   - youth
   - give
+  - the-move
   - volunteer
-  - events-page
