@@ -2,9 +2,8 @@ cards:
   - connection-card
   - baptism
   - divorcecare
-  - events-page
-  - discipleship-interest
   - healinghearts
+  - discipleship-interest
   - communion
   - worship
   - kids
@@ -12,3 +11,4 @@ cards:
   - give
   - the-move
   - volunteer
+  - events-page
