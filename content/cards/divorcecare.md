@@ -5,5 +5,4 @@ category: 'next-step'
 title: 'DivorceCare'
 ---
 
-Jan 16 - Apr 10, 2025
-Join at any time.
+Jan 16-Apr 10 - Join at any time.
