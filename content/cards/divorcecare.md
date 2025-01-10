@@ -1,6 +1,6 @@
 ---
 url: 'https://flatland.churchcenter.com/registrations/events/2636336'
-image: 'https://flatlandchurch.com/images/flc-divorcecare.jpg'
+image: 'https://flatlandchurch.com/images/flc-divorcecare.png'
 category: 'serve'
 title: 'DivorceCare'
 ---
