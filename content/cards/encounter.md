@@ -4,5 +4,5 @@ category: 'osm'
 title: 'Encounter Night'
 ---
 
-Join us for worship, prayer and more.<br>
-Tonight at 6:00pm!
+Sunday | February 2 | 6:00pm<br>
+Family Dinner at 5:15pm
