@@ -1,6 +1,7 @@
 cards:
   - connection-card
   - the-move
+  - give
   - discipleship-interest
   - mens-event
   - communion
@@ -8,6 +9,5 @@ cards:
   - worship
   - kids
   - youth
-  - give
   - volunteer
   - events-page
