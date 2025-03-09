@@ -1,5 +1,5 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/2776013'
+url: 'https://flatlandchurch.com/4and1'
 image: 'https://flatlandchurch.com/images/mens-event-25.png'
 title: 'Fourth and One'
 ---
