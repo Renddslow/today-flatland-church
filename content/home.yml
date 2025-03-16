@@ -1,6 +1,6 @@
 cards:
   - connection-card
-  - volunteer
+  - workday
   - discipleship-interest
   - mens-event
   - easter
@@ -8,6 +8,7 @@ cards:
   - missions-holdrege
   - missions-coh
   - missions-moldova
+  - volunteer
   - the-move
   - give
   - communion
