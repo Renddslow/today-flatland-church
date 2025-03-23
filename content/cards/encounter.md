@@ -1,5 +1,6 @@
 ---
 image: 'https://flatlandchurch.com/images/encounter.png'
+url: 'https://flatlandchurch.com/events/encounter'
 category: 'osm'
 title: 'Encounter Night'
 ---
