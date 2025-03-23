@@ -1,7 +1,7 @@
 ---
 url: 'https://flatlandchurch.com/easter'
 image: 'https://flatlandchurch.com/images/easter.png'
-category: 'updates'
+category: 'next-step'
 title: 'Easter Sunday'
 ---
 
