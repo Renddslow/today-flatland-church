@@ -1,5 +1,5 @@
 ---
-url: ''
+url: 'https://flatlandchurch.com/events/good-friday'
 image: 'https://flatlandchurch.com/images/good-friday.png'
 category: 'osm'
 title: 'Good Friday'
