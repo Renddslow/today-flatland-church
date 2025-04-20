@@ -1,8 +1,8 @@
 ---
 url: 'https://flatlandchurch.com/easter'
-image: 'https://flatlandchurch.com/images/easter.png'
+image: 'https://flatlandchurch.com/images/easter-handout.pdf'
 category: 'next-step'
-title: 'Easter Sunday'
+title: 'Easter Handout'
 ---
 
-Let's feed the world!
+Sermon Notes
