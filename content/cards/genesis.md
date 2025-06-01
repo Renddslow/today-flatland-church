@@ -1,8 +1,8 @@
 ---
 url: 'https://flatland.churchcenter.com/registrations/events/2826169'
-image: 'https://flatlandchurch.com/images/dp-genesis.jpg'
-category: 'next-step'
+image: 'https://flatlandchurch.com/images/genesis.png'
+category: ''
 title: 'Reading Through Genesis'
 ---
 
-Get to know in greater detail the opening pages of scripture.
+Begins Sunday, June 9, 9:30am
