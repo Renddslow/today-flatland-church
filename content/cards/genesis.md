@@ -1,5 +1,5 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/2358596'
+url: 'https://flatland.churchcenter.com/registrations/events/2826169'
 image: 'https://flatlandchurch.com/images/dp-genesis.jpg'
 category: 'next-step'
 title: 'Reading Through Genesis'
