@@ -5,4 +5,4 @@ category: ''
 title: 'Reading Through Genesis'
 ---
 
-Begins Sunday, June 9, 9:30am
+Begins Sunday, June 8, 9:30am
