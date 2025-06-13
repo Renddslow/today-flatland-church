@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/2894161'
-image: 'https://flatlandchurch.com/images/tp-alpha.png'
+url: 'https://flatland.churchcenter.com/registrations/events/2962874'
+image: 'https://flatlandchurch.com/images/tp-jonah.png'
 category: ''
-title: 'Alpha Course'
+title: 'Jonah'
 ---
 
-Begins Wednesday, July 2, 7:00pm
+Begins Tuesday, July 22, 6:00am
