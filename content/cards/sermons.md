@@ -1,8 +1,8 @@
 ---
-url: 'https://flatlandchurch.com/series/666/'
-image: 'https://flatlandchurch.com/images/series-666.jpg'
+url: 'https://flatlandchurch.com/sermons/abortion/'
+image: 'https://flatlandchurch.com/images/series-hot-topics.jpg'
 category: 'ministry'
-title: '666'
+title: 'Hot Topics'
 ---
 
-Check out this series on the book of Revelation.
+Abortion (September 11, 2022)
