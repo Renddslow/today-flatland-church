@@ -6,4 +6,4 @@ title: 'Resource'
 ---
 
 Women and Eldership
-From Bridgetown Church
+from Bridgetown Church
