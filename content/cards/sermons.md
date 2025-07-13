@@ -1,7 +1,7 @@
 ---
 url: 'https://flatlandchurch.com/sermons/abortion/'
 image: 'https://flatlandchurch.com/images/series-hot-topics.jpg'
-category: 'ministry'
+category: ''
 title: 'Hot Topics'
 ---
 
