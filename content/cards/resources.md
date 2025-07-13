@@ -1,8 +1,9 @@
 ---
-url: 'https://www.reengage.org/resources?query=pornography'
-image: 'https://flatlandchurch.com/images/reengage.png'
+url: 'https://static1.squarespace.com/static/6314e00979f8094598b9dbab/t/64e465ab45ec2453882f910e/1733441855266/Defining+a+Biblical+Position+on+Women+and+Eldership+-+Written+Statement.pdf'
+image: 'https://flatlandchurch.com/images/bridgetown.png'
 category: 'discipleship'
-title: 'Resources'
+title: 'Resource'
 ---
 
-Check out this resource from re|engage for addressing the issue of pornography.
+Women and Eldership
+From Bridgetown Church
