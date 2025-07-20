@@ -5,4 +5,4 @@ category: ''
 title: 'Living the Spirit-Formed Life'
 ---
 
-Begins Tuesday, July 22, 6:00am
+Begins Tuesday, July 29, 6:00am
