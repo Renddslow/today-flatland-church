@@ -5,4 +5,4 @@ category: ''
 title: 'College Group'
 ---
 
-Begins Monday, August 18, 7:30-9:00pm
+Begins Mon, Aug 18, 7:30-9:00pm
