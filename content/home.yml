@@ -1,12 +1,11 @@
 cards:
   - connection-card
-  - spirit-formed-life
-  - missions-coh
   - encounter
-  - give
-  - divorcecare
   - fpu
   - baptism
+  - missions-coh
+  - give
+  - divorcecare
   - communion
   - volunteer
   - worship
