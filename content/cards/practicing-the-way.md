@@ -5,4 +5,4 @@ category: ''
 title: 'Practicing the Way'
 ---
 
-Begins Sunday, August 24, 6:00-7:30pm
+Begins Sun, Aug 24, 6:00-7:30pm
