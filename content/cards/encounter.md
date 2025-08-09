@@ -5,5 +5,5 @@ category: 'osm'
 title: 'Encounter Night'
 ---
 
-Sunday | August 3 | 6:00pm<br>
+Sunday | September 14 | 6:00pm<br>
 Family Dinner at 5:15pm
