@@ -5,4 +5,4 @@ category: ''
 title: 'College Group'
 ---
 
-Begins Mon, Aug 18, 7:30-9:00pm
+Mondays at Flatland, 7:30-9:00pm
