@@ -5,4 +5,4 @@ category: ''
 title: 'Spiritual Conversations'
 ---
 
-Begins Sunday, September 21, 6:00pm
+Begins Sunday, Sep 21, 6:00pm
