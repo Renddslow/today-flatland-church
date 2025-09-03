@@ -1,6 +1,6 @@
 ---
 title: 'Flatland United'
-category: 'ministry'
+category: ''
 image: 'https://flatlandchurch.com/images/united.png'
 url: 'https://flatlandchurch.com/events/united'
 ---
