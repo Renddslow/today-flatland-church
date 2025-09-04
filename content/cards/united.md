@@ -1,7 +1,7 @@
 ---
 title: 'Flatland United'
 category: ''
-image: 'https://flatlandchurch.com/images/united.png'
+image: 'https://flatlandchurch.com/images/united.jpg'
 url: 'https://flatlandchurch.com/events/united'
 ---
 
