@@ -1,6 +1,6 @@
 ---
 url: 'https://flatlandchurch.com/series/joshua/'
-image: 'https://flatlandchurch.com/images/series-joshua.jpg'
+image: 'https://flatlandchurch.com/images/series-joshua.png'
 category: ''
 title: 'Joshua'
 ---
