@@ -1,8 +1,8 @@
 ---
-url: 'https://flatlandchurch.com/sermons/abortion/'
-image: 'https://flatlandchurch.com/images/series-hot-topics.jpg'
-category: 'updates'
-title: 'Hot Topics'
+url: 'https://flatlandchurch.com/series/joshua/'
+image: 'https://flatlandchurch.com/images/series-joshua.jpg'
+category: ''
+title: 'Joshua'
 ---
 
-Abortion (September 11, 2022)
+Our sermon series from 2018.
