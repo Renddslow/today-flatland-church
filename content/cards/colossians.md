@@ -5,4 +5,4 @@ category: ''
 title: 'How to Read Colossians'
 ---
 
-Begins Sunday, Oct 14, 6:00am
+Begins Tuesday, Oct 14, 6:00am
