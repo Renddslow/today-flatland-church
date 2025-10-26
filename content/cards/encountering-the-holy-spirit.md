@@ -5,4 +5,4 @@ category: ''
 title: 'Encountering the Holy Spirit'
 ---
 
-Begins Sunday, November 16, 6:00pm
+Begins Sunday, Nov 16, 6:00pm
