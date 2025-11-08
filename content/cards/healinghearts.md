@@ -5,4 +5,4 @@ category: 'serve'
 title: 'Healing Hearts'
 ---
 
-Nov 3 - Dec 8, 2025
+Nov 17 - Dec 22, 2025
