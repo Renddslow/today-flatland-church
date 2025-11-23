@@ -5,4 +5,4 @@ category: ''
 title: 'Living the Spirit-Formed Life'
 ---
 
-Begins Sunday, January 4, 6:00pm
+Begins Sun, Jan 4, 6pm
