@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/3244165'
+url: 'https://flatland.churchcenter.com/registrations/events/3299179'
 image: 'https://flatlandchurch.com/images/tp-jonah.png'
 category: ''
 title: 'Jonah'
 ---
 
-Begins Sunday, January 4, 6:00pm
+Begins Sun, Jan 4, 6pm
