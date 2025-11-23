@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/2454425'
+url: 'https://flatland.churchcenter.com/registrations/events/3243831'
 image: 'https://flatlandchurch.com/images/dp-step-up-to-life.png'
-category: 'ministry'
+category: ''
 title: 'Step Up to Life'
 ---
 
-Saturday, 9:30am-1:30pm
+Begins Tuesday, January 6, 6:00am
