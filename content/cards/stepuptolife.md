@@ -5,4 +5,4 @@ category: ''
 title: 'Step Up to Life'
 ---
 
-Begins Tuesday, January 6, 6:00am
+Begins Tue, Jan 6, 6am
