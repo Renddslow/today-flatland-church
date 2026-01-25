@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/2598407'
-image: 'https://flatlandchurch.com/images/womens-event.png'
+url: 'https://flatlandchurch.com/events/womens-event/'
+image: 'https://flatlandchurch.com/images/IF.png'
 category: 'updates'
-title: 'Be Brave'
+title: 'Women's Event'
 ---
 
-Women's Event: February 21-22
+February 27-28
