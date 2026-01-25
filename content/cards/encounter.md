@@ -5,5 +5,5 @@ category: 'osm'
 title: 'Encounter Night'
 ---
 
-Sunday | November 2 | 6:00pm<br>
+Sunday | February 15 | 6:00pm<br>
 Family Dinner at 5:15pm
