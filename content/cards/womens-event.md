@@ -1,7 +1,7 @@
 ---
 url: "https://flatlandchurch.com/events/womens-event"
 image: "https://flatlandchurch.com/images/IF.png"
-category: "updates"
+category: "serve"
 title: "Women's Event"
 ---
 
