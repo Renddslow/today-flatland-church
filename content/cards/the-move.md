@@ -1,8 +1,8 @@
 ---
 title: 'The Move'
 category: 'serve'
-image: 'https://flatlandchurch.com/images/the-move-cover.jpg'
-url: 'https://flatlandchurch.com/the-move-project-guide-2025.pdf'
+image: 'https://flatlandchurch.com/images/the-move-2026.png'
+url: 'https://flatland.churchcenter.com/people/forms/1152497'
 ---
 
-2025 Project Guide
+Make a Faith Pledge
