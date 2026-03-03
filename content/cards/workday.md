@@ -2,7 +2,7 @@
 title: 'All Church Workday'
 category: 'ministry'
 image: 'https://flatlandchurch.com/images/workday.jpeg'
-url: 'https://flatland.churchcenter.com/registrations/events/3185166'
+url: 'https://flatland.churchcenter.com/registrations/events/3483326'
 ---
 
-Sat | Oct 4 | 9am - Noon
+Sat | Mar 21 | 9am - Noon
