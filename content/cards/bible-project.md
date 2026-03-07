@@ -1,8 +1,8 @@
 ---
-url: 'https://bibleproject.com/app/'
+url: 'https://bibleproject.com/videos/sabbath-video/'
 image: 'https://flatlandchurch.com/images/bible-project.jpg'
 category: 'ministry'
-title: 'Bible Project'
+title: 'Sabbath'
 ---
 
-Download the Bible Project app.
+A Bible Project theme video

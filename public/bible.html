@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Bible | Flatland Church</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      section {
+        color: rgb(27, 27, 27);
+        font-family: 'Domine', serif;
+        width: 100%;
+        padding: 0 24px 62px;
+        margin: 0 auto;
+        max-width: 760px;
+      }
+
+      section h1 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 64px;
+        margin-bottom: 12px;
+      }
+
+      section p {
+        line-height: 32px;
+        font-size: 18px;
+      }
+
+      .selector {
+        min-height: 40px;
+        padding: 0.68rem 1.125rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid rgb(217, 217, 217);
+        border-radius: 16px;
+        font-size: 16px;
+      }
+
+      header {
+        display: block;
+        width: 100%;
+        padding: 24px;
+        position: sticky;
+        top: 0;
+      }
+
+      nav {
+        width: max-content;
+        display: grid;
+        margin: 12px auto 0;
+        grid-template-columns: repeat(2, minmax(0, max-content));
+        grid-gap: 6px;
+      }
+
+      button.close {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 1px solid rgb(217, 217, 217);
+        background-color: transparent;
+        position: relative;
+        margin-left: auto;
+        display: block;
+        cursor: pointer;
+      }
+
+      button.close::before,
+      button.close::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        height: 2px;
+        background-color: rgb(128, 125, 125);
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+
+      button.close::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+
+      sup.verse-number {
+        display: none;
+      }
+
+      sup.verse-number.show {
+        display: inline;
+      }
+
+      .li,
+      .li1,
+      .q,
+      .q1 {
+        padding-left: 24px;
+      }
+
+      .li2,
+      .q2 {
+        padding-left: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <button class="close"></button>
+        <nav>
+          <button class="selector">Matthew 1 (NIV)</button>
+          <button class="selector hide-verses" data-verses="false">Toggle Verses</button>
+        </nav>
+      </header>
+      <section></section>
+    </div>
+    <script type="module">
+      import { getChapter, parseContent } from '/render-bible.js';
+      (async () => {
+        const search = new URLSearchParams(window.location.search);
+        const ref = search.get('ref')?.toLowerCase() || 'mat1';
+        const version = search.get('version')?.toLowerCase() || 'niv';
+        if (!search.has('ref')) {
+          history.replaceState({}, '', `/bible?ref=${ref}&version=${version}`);
+        }
+
+        document.querySelector('.hide-verses').addEventListener('click', (e) => {
+          document.querySelectorAll('sup.verse-number').forEach((el) => {
+            el.classList.toggle('show');
+          });
+        });
+
+        const chapter = await getChapter(ref, version);
+        document.title = `${chapter.title} | Bible | Flatland Church`;
+
+        const lines = parseContent(chapter.content);
+
+        document.querySelector('section').innerHTML = `<h1>${chapter.title}</h1>${lines.join(
+          '\n',
+        )}`;
+        document.querySelector('.close').addEventListener('click', () => {
+          if (window.parent) {
+            window.parent.postMessage('close-bible-overlay', '*');
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

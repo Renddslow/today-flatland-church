@@ -1,8 +1,8 @@
 ---
 title: 'All Church Workday'
-category: 'serve'
+category: 'ministry'
 image: 'https://flatlandchurch.com/images/workday.jpeg'
-url: 'https://flatland.churchcenter.com/registrations/events/1950096'
+url: 'https://flatland.churchcenter.com/registrations/events/3483326'
 ---
 
-Help us do some fall cleaning and fixing up. Skills welcomed but not required.
+Sat | Mar 21 | 9am - Noon

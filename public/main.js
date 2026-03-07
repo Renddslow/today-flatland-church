@@ -1,5 +1,5 @@
 (() => {
-  document.querySelector('#check-in').addEventListener('submit', async (e) => {
+  document.querySelector('#check-in')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const data = new FormData(e.target);
     const { visit, salvation, recommit, groups, ...rest } = Object.fromEntries(data.entries());
