@@ -5,4 +5,4 @@ category: 'osm'
 title: 'Good Friday'
 ---
 
-April 3, 7AM and 7PM
+April 3 | 7AM and 7PM
