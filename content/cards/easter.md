@@ -1,8 +1,8 @@
 ---
-url: 'https://flatlandchurch.com/images/easter-handout.pdf'
-image: 'https://flatlandchurch.com/images/easter-handout.png'
+url: 'https://flatlandchurch.com/events/easter.md'
+image: 'https://flatlandchurch.com/images/easter.png'
 category: 'next-step'
-title: 'Easter Handout'
+title: 'Easter'
 ---
 
-Sermon Notes
+April 5 | 9:30 & 11:00 AM
