@@ -1,5 +1,5 @@
 ---
-url: 'https://flatlandchurch.com/events/easter.md'
+url: 'https://flatlandchurch.com/events/easter/'
 image: 'https://flatlandchurch.com/images/easter.png'
 category: 'next-step'
 title: 'Easter'
