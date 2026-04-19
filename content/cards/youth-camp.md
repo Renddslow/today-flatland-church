@@ -1,8 +1,8 @@
 ---
-url: 'https://form.jotform.com/NEAG/yth-camp-1-24'
+url: 'https://form.jotform.com/NEAG/yth-1---student-registration-2026'
 image: 'https://flatlandchurch.com/images/camp-youth.png'
 category: 'next-step'
 title: 'Youth Camp'
 ---
 
-June 3-7, 2024
+June 1-5, 2026
