@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/3143306'
+url: 'https://flatland.churchcenter.com/registrations/events/3419373'
 image: 'https://flatlandchurch.com/images/tp-encountering-the-holy-spirit.png'
 category: ''
 title: 'Encountering the Holy Spirit'
 ---
 
-Begins Sunday, Nov 16, 6:00pm
+Begins Tue, Jun 16, 6:00am
