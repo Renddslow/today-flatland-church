@@ -5,4 +5,4 @@ category: ''
 title: 'Encountering the Holy Spirit'
 ---
 
-Begins Tue, Jun 16, 6:00am
+Begins Tue, Jun 16, 6am
