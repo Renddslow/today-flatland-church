@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/2879876'
+url: 'https://flatland.churchcenter.com/registrations/events/3526721'
 image: 'https://flatlandchurch.com/images/tp-practicing-the-way.png'
 category: ''
 title: 'Practicing the Way'
 ---
 
-Begins Sun, Aug 24, 6:00-7:30pm
+Begins Wed, Jul 15, 7pm
