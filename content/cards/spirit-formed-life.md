@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/3243709'
+url: 'https://flatland.churchcenter.com/registrations/events/3518644'
 image: 'https://flatlandchurch.com/images/tp-spirit-formed-life.png'
 category: ''
 title: 'Living the Spirit-Formed Life'
 ---
 
-Begins Sun, Jan 4, 6pm
+Begins Tue, Jul 14, 6am
