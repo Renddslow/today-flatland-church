@@ -1,8 +1,8 @@
 ---
-url: 'https://flatland.churchcenter.com/registrations/events/3136893'
-image: 'https://flatlandchurch.com/images/tp-matthew-acts.png'
+url: 'https://flatland.churchcenter.com/registrations/events/3526817'
+image: 'https://flatlandchurch.com/images/tp-matthew.png'
 category: ''
-title: 'Matthew and Acts'
+title: 'Reading Through Matthew'
 ---
 
-Begins Wednesday, Oct 1, 7:00pm
+Begins Wed, Jul 22, 7pm
